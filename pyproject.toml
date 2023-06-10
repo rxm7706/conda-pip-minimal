@@ -29,7 +29,7 @@ Homepage = "https://github.com/indigoviolet/conda-pip-minimal"
 conda-cpm = 'conda_pip_minimal.cli:app'
 
 [tool.hatch.version]
-path = "src/conda_pip_minimal/__about__.py"
+path = "conda_pip_minimal/__about__.py"
 
 [tool.hatch.envs.default]
 path = ".venv"
@@ -38,7 +38,7 @@ path = ".venv"
 extra-dependencies = ["ipython", "snoop", "trio-typing"]
 
 [tool.hatch.build]
-packages = ["src/conda_pip_minimal"]
+packages = ["conda_pip_minimal"]
 
 [build-system]
 requires = ["hatchling"]
