@@ -13,13 +13,13 @@ classifiers = [
   'Topic :: Software Development :: Build Tools'
 ]
 dependencies = [
-  "typer~=0.6.1",
+  "typer>=0.6.1",
   "semver>=3.0.0",
   "more-itertools",
-  "trio~=0.22.0",
+  "trio>=0.22.0",
   "loguru",
-  "importlib-metadata~=5.0.0",
-  "ruamel-yaml~=0.17.21"
+  "importlib-metadata>=5.0.0",
+  "ruamel-yaml>=0.17.21"
 ]
 
 [project.urls]
